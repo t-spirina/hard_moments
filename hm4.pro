@@ -7,10 +7,8 @@ CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++17
 
 SOURCES += \
-        main.cpp \
-        matrix.cpp \
-        myiterator.cpp
+        main.cpp
 
 HEADERS += \
-    matrix.h \
-    myiterator.h
+    RMSerror.h \
+    insert_sorted.h
